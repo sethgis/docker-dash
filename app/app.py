@@ -251,7 +251,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                               activeColor="#214097", completedColor="#972158"), 
                               
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/ADS/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080//geoserver/ADS/wms?/",
                                             layers="CE", format="image/png", transparent=True)],
            center=[0.0236, 37.9062], zoom=4,
            style= SIDEBAR_STYLE2,
@@ -263,7 +263,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/ADS/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/ADS/wms?/",
                                             layers="EF", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
@@ -274,7 +274,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/ADS/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/ADS/wms?/",
                                             layers="SC", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
@@ -285,7 +285,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/ADS/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/ADS/wms?/",
                                             layers="VC", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
@@ -296,7 +296,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/raster/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/raster/wms?/",
                                             layers="SR", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
@@ -307,7 +307,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/raster/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/raster/wms?/",
                                             layers="VC", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
@@ -318,7 +318,7 @@ def update_value(value):
      dl.MeasureControl(position="topleft", primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
                             activeColor="#214097", completedColor="#972158"),
                             
-     dl.WMSTileLayer(url="http://45.76.249.64:8085/geoserver/ADS/wms?/",
+     dl.WMSTileLayer(url="http://144.202.80.233:8080/geoserver/ADS/wms?/",
                                             layers="ILSWE", format="image/png", transparent=True)],
         center=[0.0236, 37.9062], zoom=4,
         style= SIDEBAR_STYLE2,
